@@ -1,0 +1,16 @@
+.background{
+    background-image: url("Gallery/bgimg.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-attachment: scroll;
+    /* background-position: center; */
+    color: tan;
+    height: 1080px;
+    width: 1920px;
+    text-align: left;
+}
+
+h1:hover{
+    font-family: monospace;
+    color: blue;
+}

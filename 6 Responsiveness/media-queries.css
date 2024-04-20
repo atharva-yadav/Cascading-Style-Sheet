@@ -1,0 +1,30 @@
+ /* @media screen and (width: 600px) {
+    body{
+        color: red;
+    }
+} */
+
+/* @media (orientation:landscape){
+    body{
+        color: blueviolet;
+    }
+}  */
+
+/* We can combine media queries also */
+
+/* px is important
+ */
+@media screen and (min-width:600px)  and (orientation:landscape){
+    body{
+        color: rgb(241, 0, 0);
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
+
+/* @media not all and (orientation:landscape) {
+    body{
+        color: coral;
+        font-weight: bolder;
+    }
+} */

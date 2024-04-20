@@ -1,0 +1,30 @@
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(146, 243, 151);
+
+    transition-property: background-color;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.8s;
+
+    /* SHORTHAND
+    transition: property duration timing-function delay; */
+
+    /* Use "all" property to apply transition on multiple items(like width and bg-color) */
+    transition: all .2s ease-in 0.2s;
+}
+
+#box:hover{
+    background-color: rgb(230, 63, 230);
+    box-shadow: 3px 3px 15px rgba(53, 200, 226, 0.678);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+/* All properties who have continuous valuees are made transitorise */

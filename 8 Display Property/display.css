@@ -1,0 +1,11 @@
+#img1{
+    border: 2px solid red;
+    /* display: inline; */
+}
+#img2{
+    border: 2px solid red;
+    height: 480px;
+}
+#firstdiv{
+    display: inline-block;
+}

@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(48, 47, 47);
+  color: white;
+}
+
+.navigation {
+  /* border: 2px solid red; */
+  font-size: 15px;
+  display: flex;
+}
+ul {
+  color: rgb(204, 200, 200);
+}
+li {
+  list-style: none;
+  padding: 8px;
+  color: rgb(204, 200, 200);
+}
+a {
+  text-decoration: none;
+}
+a[href]:hover {
+  color: white;
+}
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("Background1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+section {
+  margin: 3px 150px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* section::before{
+    content: "This is a brfore content";
+}
+section::after{
+    content: "This is a after content";
+} */
+h3 {
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p {
+  text-align: center;
+}
+!

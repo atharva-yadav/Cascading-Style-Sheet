@@ -1,0 +1,16 @@
+div{
+    color: royalblue;
+    background-color: rgb(241, 198, 167);
+    padding: 20px;
+    border: 10px double red;
+    margin: 10px;
+    border-radius: 25px;
+
+    width: 500px;
+    height: 200px;
+    overflow-x: scroll;
+}
+h5{
+    color: violet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

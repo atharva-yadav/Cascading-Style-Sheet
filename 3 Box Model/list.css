@@ -1,0 +1,25 @@
+nav a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+    float: left;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* a:visited{
+    color: seagreen;
+} */
+
+ol li{
+    background-color: skyblue;
+    list-style-position: inside;
+    /* list-style-position: outside; */
+
+    list-style-type: square;
+}
+

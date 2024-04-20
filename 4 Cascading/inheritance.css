@@ -1,0 +1,26 @@
+body{
+    color: rgb(12, 9, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px double black;
+    
+}
+
+.class1 a{
+    color: inherit;
+}
+.class2 a{
+    color: initial;
+}
+.class3 a{
+    color: unset;
+}
+
+
+/* If we use !importamt keyword, then the specifity is highest whether it is at lower position or higher (rules of selector are not followed by !imporatant*/
+
+li{
+    list-style-type:circle !important;
+}
+li{
+    list-style-type: square ;
+}

@@ -1,0 +1,17 @@
+.box{
+    margin: 20px;
+    padding: 20px;
+    border: 2px dotted red;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    /* Creating overflow */
+    width: 320px;
+    height: 120px;
+
+    /* Overflow Propeties */
+    /* overflow: hidden;
+    overflow: visible; */
+    /* overflow: scroll; */
+    overflow: auto;
+}

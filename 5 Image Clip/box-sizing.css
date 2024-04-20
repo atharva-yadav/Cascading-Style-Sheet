@@ -1,0 +1,36 @@
+div{
+    width: 160px;
+    height: 80px;
+    padding: 20px;
+    border: 8px solid red;
+    background: yellow;
+}
+
+.content-box{
+    box-sizing: content-box;
+    
+    /* 
+
+    Total Width : 160px + (2 * 20px) + (2 * 8px) = 256px
+    Total Height : 80px + (2 * 20px) + (2 * 8px) = 136px
+
+    Content Box width: 160px
+    Content Box height: 80px
+
+    */
+}
+
+.border-box{
+    box-sizing: border-box;
+
+    /* 
+
+    Total Width : 160px 
+    Total Height : 80px
+
+    Content Box width: 160px - (2 * 20px) - (2 * 8px) = 104px
+    Content Box height: 80px - (2 * 20px) - (2 * 8px) = 24px
+
+    */
+
+}

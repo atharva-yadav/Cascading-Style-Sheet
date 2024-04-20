@@ -1,0 +1,44 @@
+.one{
+    color: orangered;
+}
+
+.two{
+    text-align: center;
+    /* text-align: left;
+    text-align: right;
+    text-align: justify; */
+}
+
+.three{
+    text-decoration: line-through;
+    /* text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: underline overline; */
+}
+
+.four{
+    text-transform: uppercase;
+}
+
+.five{
+    text-indent: 30%;
+}
+
+.six{
+    letter-spacing: 3px;
+    line-height: 2;
+}
+
+.seven{
+    word-spacing: 12px;
+}
+
+div{
+    background-color: rgb(255, 255, 255);
+
+    /* offset-x offset-y blur-radius color */
+    text-shadow: 1px 2px 2px rgb(255, 196, 0);
+}
+*{
+    font-weight: 500;
+}

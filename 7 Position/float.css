@@ -1,0 +1,97 @@
+body{
+    /* font-family: 'Parisienne', cursive; */
+    margin: 0 auto;
+    max-width: 900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+
+}
+
+#box{
+    float:left;
+    margin: 10pxb;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 25%;
+    background-color: rgb(52, 213, 235);
+    padding: 1em;
+    box-shadow: 2px 2px 6px  rgb(207, 23, 137) ;
+}
+
+
+#sub-heading{
+    background-color: rgb(140, 193, 247);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(233, 66, 66);
+}
+
+/* second para get out of flaot */
+#spara{
+    border: 2px solid lightcoral;
+    margin: 4px;
+    padding: 3px;
+    clear: left;
+    text-align: justify;
+}
+#fpara{
+    border: 2px solid lightcoral;
+    margin: 14px;
+    padding: 3px;
+    text-align: justify;
+}
+
+#head{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 45%;
+    background-color: rgb(219, 80, 108);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px auto;
+    color: whitesmoke;
+}
+
+/*  */ 
+/*  */
+
+.item{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(156, 229, 241);
+    width: 30%;
+    text-align: justify;
+
+}
+
+
+
+#store{
+    border: 3px solid blueviolet;
+}
+
+#fruit{
+    width: 45%;
+    float: left;
+}
+#computer{
+    width: 45%;
+    float: right;
+}
+#stationary{
+    box-sizing: border-box;
+    width: 98%;
+    clear: both;
+}
+#edu{
+    width: 60%;
+    float: left;
+}
+#tech{
+    width: 30%;
+    float:right;
+}

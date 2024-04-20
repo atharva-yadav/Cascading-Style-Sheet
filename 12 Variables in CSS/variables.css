@@ -1,0 +1,24 @@
+:root {
+  --box-color: rgb(241, 149, 149);
+  --bg-color: rgb(245, 245, 148);
+  --max-width: 300px;
+  --max-height: 600px;
+  --box-height: 400px;
+}
+
+.box {
+  --box-color: rgb(243, 142, 226);
+  width: var(--max-width);
+  height: var(--box-height);
+  border: 2px solid red;
+  background-color: var(--box-color);
+  margin: 13px;
+  /* box-shadow: 5px 5px var(--box-color); */
+}
+.container {
+  display: flex;
+  height: var(--max-height);
+  background-color: var(--bg-color);
+  justify-content: center;
+  align-items: center;
+}

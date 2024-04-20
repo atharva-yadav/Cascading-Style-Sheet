@@ -1,0 +1,49 @@
+/* Top left attributes for creating stack layers */
+/* Whose Z index is greater that is upward in layers */
+
+div#layer1{
+    z-index: 1;
+
+    position: sticky ;
+    top: 8px;
+    left: 8px;
+    width: 250px;
+    height: 120px;
+    background-color: orange;
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+
+div#layer2{
+    z-index: 2;
+
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 250px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+
+div#layer3{
+    z-index: 3;
+
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(34, 216, 34);
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+div{
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

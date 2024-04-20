@@ -1,0 +1,21 @@
+table, thead{
+    border: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-spacing: 2px;
+    border-collapse: collapse;
+}
+td{
+    border: solid;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+th{
+    background-color: silver;
+    color: red;
+}
+tbody{
+    background-color: rgb(255, 255, 255);
+}

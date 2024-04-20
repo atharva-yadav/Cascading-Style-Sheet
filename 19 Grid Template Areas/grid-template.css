@@ -1,0 +1,66 @@
+.container {
+  display: grid;
+  grid-gap: 10px;
+  /* border: 3px solid rgb(0, 0, 0); */
+
+  /* 💛💛Gride Template Areas💛💛 */
+  grid-template-areas: 
+  'navbar navbar navbar navbar'
+  'section section section aside'
+  'footer footer footer footer';
+
+
+}
+
+div div, footer{
+    border: 2px solid salmon;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: seashell;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(240, 11, 11);
+  display: inline;
+  border: 1px solid plum;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  background-color: rgb(245, 245, 153);
+}
+li {
+  list-style-type: none;
+}
+#nav {
+  /* border: 2px solid red; */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#navbar {
+  grid-area: navbar;
+}
+
+#section {
+  grid-area: section;
+}
+
+#aside {
+  grid-area: aside;
+}
+#footer {
+  grid-area: footer;
+}

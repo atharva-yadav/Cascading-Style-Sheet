@@ -1,0 +1,15 @@
+#favourite{
+    color: red;
+}
+
+/* If specificity is same then last declared property is get applied. */
+#favourite{
+    color: rgb(92, 5, 94);
+}
+li{
+    list-style-type:circle;
+    background-color: rgb(118, 238, 238);
+    margin: 3px;
+    padding: 3px;
+    font-size: large;
+}
